@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Forms in Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <form action="#">
+            First Name: <input type="text" name="firstName" value="Hailey" /><br />
+            Last Name: <input type="text" name="lastName" value="Ipsale" /><br />
+            <input type="submit" name="submit" value="Subscribe Now!">
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <form action="#">
+            <div class="form-group">
+              <label for="fname">First Name:</label>
+              <input class="form-control" type="text" name="firstName" value="Hailey" id="fname" />
+              <label for="lname">Last Name:</label>
+              <input class="form-control" type="text" name="lastName" value="Ipsale" id="lname" />
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe Please!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
